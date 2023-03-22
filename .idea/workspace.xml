@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c023a049-639e-4681-8c4d-d36b18bbc447" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modificators.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/FruitBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/FruitCatalogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/fruits/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/fruits/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/fruits/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/fruits/Pinapple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/megabankcorp/records/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/megabankcorp/system/Database.java" afterDir="false" />
+    <list default="true" id="c023a049-639e-4681-8c4d-d36b18bbc447" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/customer/FreshCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fruitbase/customer/UniqueCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fruitbase/FruitCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fruitbase/FruitCatalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fruitbase/fruits/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fruitbase/fruits/Orange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fruitbase/fruits/Pinapple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fruitbase/fruits/Pinapple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +53,33 @@
       <option name="presentableId" value="Default" />
       <updated>1676972313300</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1677584490674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677584490674</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1677584706990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677584706990</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2">
+      <created>1679479142517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679479142517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
