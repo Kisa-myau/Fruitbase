@@ -3,10 +3,16 @@ package com.fruitbase.fruits;
 import java.math.BigDecimal;
 
 public class Apple extends Fruit {
-    double weight;
-    BigDecimal price;
-    String name;
-    public Apple(double weight, double price, String name){}
+    private double weight;
+    private BigDecimal price;
+    private String name;
+    private String freshness;
+    public Apple(){
+        weight = 0.150;
+        price = BigDecimal.valueOf(5.2);
+        name = "Apple ";
+        freshness = String.valueOf(Freshness.FRESH);
+    }
 
     public double getWeight(){
         return this.weight = weight;

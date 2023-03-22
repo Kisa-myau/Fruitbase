@@ -1,27 +1,47 @@
 package com.fruitbase;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import com.fruitbase.fruits.Fruit;
+
+import java.math.BigDecimal;
 
 public class Cargo {
-    private double commonWeight;
-    private double commonPrice;
-    String[] fruit;
+    private double commonWeight = 0;
+    private BigDecimal commonPrice = BigDecimal.valueOf(0);
+    Fruit [] cargo;
     public Cargo (){
 
-        this.fruit = new String[]{"fruit1", "fruit2", "fruit3"};
+        this.cargo = new Fruit[10];
     }
-    public double getWeight (){
-        return this.commonWeight = commonWeight;
+
+    public double countCommonWeight (Fruit [] cargo){ // расчет общего веса фруктов в грузе
+        for (int i = 0;i < cargo.length; i++) {
+            if (cargo[i]!=null)
+            commonWeight = commonWeight + (double) cargo[i].getWeight();
+            else continue;
+        }
+        return commonWeight;
     }
-    public double getPrice(){
-        return this.commonPrice = commonPrice;
+    public BigDecimal countCommonPrice (Fruit [] cargo){ // расчет общей цены фруктов в грузе
+        for (int i = 0;i < cargo.length; i++) {
+            if (cargo[i]!=null)
+                commonPrice = commonPrice.add(cargo[i].getPrice());
+            else continue;
+        }
+        return commonPrice;
     }
-    protected String[] addFruit(String [] fruit, String newFruit){     //добавляет Fruit во внутренний массив
-        List<String> list = new ArrayList<>(Arrays.asList(fruit));
-        list.add(newFruit);
-        return list.toArray(new String[0]);
+    protected void addFruit(Fruit addedFruit, int i){     //добавляет Fruit во внутренний массив
+            cargo[i] = addedFruit;
     }
+    public Fruit getFruits () {// с его помощью покупатели получают фрукты из груза возвращает список фруктов
+        Fruit result = null;
+        return result;
+    }
+    public Fruit removeFruit (Fruit removedFruit){  // получает в качестве параметра фрукт
+                                                    // если такого фрукта нет во внутреннем списке, то метод завершается
+                                                    // иначе убирает фрукт с указанным названием из внутреннего массива и возвращает его
+        Fruit result = null;
+        return result;
+    }
+
 
 }
